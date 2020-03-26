@@ -1,0 +1,132 @@
+{
+  "testId" : "1-checkoutsmoketest-cartpage-desktop-1920x1080-",
+  "name" : "CheckoutSmokeTest#cartPage (desktop 1920x1080)",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout /specs/cartPage.spec",
+      "status" : "info",
+      "time" : 1585218142661,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Header",
+        "place" : {
+          "filePath" : "\\specs/common.spec",
+          "lineNumber" : 7
+        },
+        "objects" : [ {
+          "name" : "header-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "\\specs/common.spec",
+              "lineNumber" : 10
+            },
+            "name" : "width 1000px",
+            "highlight" : [ "header-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "\\specs/common.spec",
+              "lineNumber" : 11
+            },
+            "name" : "height > 40px",
+            "highlight" : [ "header-container" ]
+          } ]
+        }, {
+          "name" : "my-account",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "\\specs/common.spec",
+              "lineNumber" : 14
+            },
+            "name" : "width 140 to 160px",
+            "highlight" : [ "my-account" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "\\specs/common.spec",
+              "lineNumber" : 15
+            },
+            "name" : "height ~ 48px",
+            "highlight" : [ "my-account" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Cart",
+        "place" : {
+          "filePath" : "/specs/cartPage.spec",
+          "lineNumber" : 11
+        },
+        "objects" : [ {
+          "name" : "empty-cart-head",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/cartPage.spec",
+              "lineNumber" : 14
+            },
+            "name" : "text is \"Sepetin şu an boş.\"",
+            "highlight" : [ "empty-cart-head" ]
+          } ]
+        }, {
+          "name" : "bank-campaigns",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/cartPage.spec",
+              "lineNumber" : 17
+            },
+            "name" : "width ~ 1000px",
+            "highlight" : [ "bank-campaigns" ]
+          } ]
+        }, {
+          "name" : "empty-cart-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/cartPage.spec",
+              "lineNumber" : 20
+            },
+            "name" : "below empty-cart-head > 20px",
+            "highlight" : [ "empty-cart-text", "empty-cart-head" ]
+          } ]
+        }, {
+          "name" : "empty-cart-icon",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/cartPage.spec",
+              "lineNumber" : 23
+            },
+            "name" : "above empty-cart-head 15 to 30px",
+            "highlight" : [ "empty-cart-icon", "empty-cart-head" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "header-container" : {
+          "area" : [ 261, 40, 1000, 48 ]
+        },
+        "empty-cart-head" : {
+          "area" : [ 281, 299, 960, 26 ]
+        },
+        "empty-cart-icon" : {
+          "area" : [ 714, 184, 94, 95 ]
+        },
+        "my-account" : {
+          "area" : [ 1104, 40, 157, 48 ]
+        },
+        "bank-campaigns" : {
+          "area" : [ 261, 483, 1000, 126 ]
+        },
+        "empty-cart-text" : {
+          "area" : [ 281, 349, 960, 51 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
