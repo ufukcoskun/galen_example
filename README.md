@@ -1,2 +1,2 @@
-# galenboilerplate
-Galen Framework Boilerplate
+# Galen Framework Example
+Galen Framework Example & Boilerplate on Hepsiburada
